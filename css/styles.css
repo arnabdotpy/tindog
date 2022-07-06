@@ -1,0 +1,192 @@
+body{
+    font-family: "Montserrat";
+    overflow-x: hidden;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.container-fluid{
+    padding: 3% 15% 13%;
+}
+
+h1{
+    font-family: "Montserrat";
+    font-weight: 900;
+    size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: "Montserrat";
+    font-weight: 900;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/* NAV BAR */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+/* DOWNLOAD BUTTONS */
+
+.btnCSS{
+    margin: 5% 3% 5% 0;
+}
+
+.btnBLACK{
+    background-color: #000;
+}
+
+.btnBLACK:hover{
+    background-color: rgb(86, 78, 78);
+    border-color: rgb(86, 78, 78);
+}
+
+/* TITLE IMAGE */
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 28%;
+}
+
+/* FEATURES SECTION */
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+/* ICON COLORS */
+
+.iconColor{
+    color: #ef8172;
+    margin-bottom: 1rem;
+    transition: 0.5s;
+}
+
+.iconColor:hover{
+    color: #ff4c68;
+    transition: 0.5s;
+}
+
+/* TESTIMONIAL */
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.tm-img{
+    border-radius: 1000%;
+    width: 10%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.press-img{
+    width: 12%;
+    margin-bottom: 3%;
+}
+
+/* PRICING SECTION */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* FOOTER */
+.download{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 15% 20% 13%;
+    color: #fff;
+}
+
+.footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.footer-icons{
+    padding: 10px 8px;
+}
+
+@media (max-width: 1000px){
+    *{
+        font-size: 30px;
+    }
+
+    #title{
+        text-align: center;
+    }
+
+    .title-img{
+        position: static;
+        transform: rotate(0deg);
+    }
+    .card-body{
+        font-size: medium;
+    }
+    .price-mbl{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 50px;
+    }
+    .container-fluid{
+        padding: 3% 12%;
+    }
+}
+
+
+
+
